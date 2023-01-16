@@ -1,0 +1,29 @@
+{
+  "strategy_name": "hlhb",
+  "params": {
+    "roi": {
+      "0": 0.32,
+      "30": 0.16,
+      "60": 0.08,
+      "480": -1
+    },
+    "stoploss": {
+      "stoploss": -1.0
+    },
+    "buy": {},
+    "sell": {},
+    "protection": {},
+    "trailing": {}
+  },
+  "exchange": {
+    "pair_whitelist": ["BTC/USDT", "ETH/USDT", "GALA/USDT", "SOL/USDT", "ETC/USDT", "APT/USDT", "XRP/USDT", "DOGE/USDT", "LTC/USDT", "BNB/USDT", "ADA/USDT", "AVAX/USDT", "LDO/USDT", "MATIC/USDT", "APE/USDT", "OCEAN/USDT", "NEAR/USDT", "LINK/USDT", "1000SHIB/USDT", "GMT/USDT"],
+    "pair_blacklist": [ "BNB/*", "EOS/USDT", "XEM/USDT", "STMX/USDT", "UNFI/USDT", "FIL/USDT", "SAND/USDT", "SOL/USDT"]
+  },
+  "pairlists": [
+      {
+          "method": "StaticPairList"
+      }
+  ],
+  "ft_stratparam_v": 1,
+  "export_time": "2023-01-13 18:17:26.339307+00:00"
+}
